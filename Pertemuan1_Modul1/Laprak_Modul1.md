@@ -268,21 +268,60 @@ Program ini meminta dua bilangan dari pengguna lalu menampilkan **penjumlahan, p
 
 ### 2. Soal Unguided 2
 
+Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100.
+
 ```C++
-source code unguided 2
+#include <iostream>
+#include <string>
+using namespace std;
+
+string satuan[] = {"nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+
+    string keHuruf (int n) {
+        switch (n) {
+            case 0: return "nol";
+            case 10: return "sepuluh";
+            case 11: return "sebelas";
+            case 100: return "seratus";
+        }
+
+        if (n < 10) return satuan[n];
+        if (n < 20) return satuan [n % 10] + " belas";
+
+        if (n < 100) {
+            string result = satuan[n / 10] + " puluh";
+            if (n % 10 != 0) {
+                result += " " + satuan[n % 10];
+            }
+            
+            return result;
+        }
+
+        return "input melebihi batas";
+}
+
+int main() {
+    int n;
+    cout << "Masukkan angka (0-100): ";
+    cin >> n;
+
+    cout << keHuruf(n) << endl;
+    return 0;
+} 
 ```
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan1_Modul1/Output/Soal2.png)
 
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+Program ini mengubah angka 0–100 menjadi kata dalam bahasa Indonesia. Array satuan menyimpan kata untuk angka 0–9. `Fungsi keHuruf(int n)` memeriksa angka :
 
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-penjelasan unguided 2
+- 0, 10, 11, 100 ditangani langsung.
+- 1–9 menggunakan array `satuan`.
+- 12–19 ditulis sebagai “x belas”.
+- 20–99 ditulis sebagai “x puluh y” jika ada sisa, atau “x puluh” jika habis dibagi 10.
+- Angka di luar 0–100 menghasilkan pesan “input melebihi batas”.
+`main()` meminta pengguna memasukkan angka lalu menampilkan hasil konversi kata.
 
 ### 3. (isi dengan soal unguided 3)
 
