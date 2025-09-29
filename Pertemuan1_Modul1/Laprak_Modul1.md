@@ -102,6 +102,6 @@ penjelasan unguided 3
 
 ## Referensi
 [1] Stroustrup, B. (2013). _The C++ Programming Language_ (4th ed.). Addison-Wesley. 
-<br>[2] Mirzoeva, K. A. (2023). _Methodology for solving a number of problems in Python and C++ languages with the application of mathematical knowledge. TAJIIR: The American Journal of Interdisciplinary Research,_ 19–23. https://theamericanjournals.com/index.php/tajiir/article/view/4518
-<br>[3] Asnawi, C., & Setiawan, C. B. (2019). Perancangan fungsi terbilang generik menggunakan teknik rekursi. _Jurnal Teknomatika,_ 9(1), 1–8.
-<br>[4] Cetin, I. (2015). _Students' Understanding of Loops and Nested Loops. Journal of Computers in Mathematics and Science Teaching,_ 34(1), 5–22. https://www.tandfonline.com/doi/full/10.1080/14926156.2015.1014075
+<br>[2] Mirzoeva, K. A. (2023). _Methodology for solving a number of problems in Python and C++ languages with the application of mathematical knowledge. TAJIIR: The American Journal of Interdisciplinary Research_, 19–23. https://theamericanjournals.com/index.php/tajiir/article/view/4518
+<br>[3] Asnawi, C., & Setiawan, C. B. (2019). Perancangan fungsi terbilang generik menggunakan teknik rekursi. _Jurnal Teknomatika_, 9(1), 1–8.
+<br>[4] Cetin, I. (2015). _Students' Understanding of Loops and Nested Loops. Journal of Computers in Mathematics and Science Teaching_, 34(1), 5–22. https://www.tandfonline.com/doi/full/10.1080/14926156.2015.1014075
