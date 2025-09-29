@@ -102,5 +102,5 @@ penjelasan unguided 3
 
 ## Referensi
 [1] Stroustrup, B. (2013). The C++ Programming Language (4th ed.). Addison-Wesley. 
-<br>[2] GeeksforGeeks. (2023). C++ Operators. Diakses dari https://www.geeksforgeeks.org/cpp-operators
+<br>[2] Mirzoeva, K. A. (2023). Methodology for solving a number of problems in Python and C++ languages with the application of mathematical knowledge. TAJIIR: The American Journal of Interdisciplinary Research, 19–23. https://theamericanjournals.com/index.php/tajiir/article/view/4518
 <br>Programiz. (2023). C++ operators. https://www.programiz.com/cpp-programming/operators
