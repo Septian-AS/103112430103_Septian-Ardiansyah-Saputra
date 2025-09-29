@@ -34,12 +34,40 @@ Digunakan untuk meminta inputan dari user.
 #### 3. Kombinasi Input-Output
 Input akan diproses kemudian langsung ditampilkan.
 
-## Guided 
+### C. Percabangan<br/>
+#### 1. If–Else
+Digunakan untuk membuat keputusan berdasarkan kondisi.
+#### 2. Switch–Case
+Cocok digunakan jika banyak pilihan.
 
-### 1. ...
+### D. Perulangan<br/>
+#### 1. While Loop
+Digunakan jika perulangan berdasarkan kondisi.
+#### 2. For Loop
+Digunakan jika jumlah iterasi sudah diketahui.
+#### 3. Do–While Loop
+Menjalankan perintah minimal sekali sebelum cek kondisi.
 
-```C++
-source code guided 1
+## Guided
+
+### 1. Hello World
+
+```#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    vector<string> msg {"Hello Telkom Jaya Jaya"};
+
+    for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
+} 
 ```
 penjelasan singkat guided 1
 
