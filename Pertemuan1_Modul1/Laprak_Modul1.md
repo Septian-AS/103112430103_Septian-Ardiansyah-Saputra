@@ -113,6 +113,122 @@ int main(){
 ```
 Guided 3 membuat program aritmatika Penjumlahan, Pengurangan, Perkalian, Pembagian, dan Modulus
 
+### 4. Percabangan
+
+```C++
+#include<iostream>
+using namespace std;
+
+int main(){
+    int angka1, angka2;
+    cout << "Masukkan angka pertama: ";
+    cin >> angka1;
+    cout << "Masukkan angka kedua: ";
+    cin >> angka2;
+
+    if (angka1 > angka2) {
+        cout << " kurang dari " << endl;
+    } else if (angka1 < angka2) {
+        cout << " lebih dari " << endl;
+    }
+
+    if (angka1 == angka2) {
+        cout << " sama dengan " << endl;
+    } else if (angka1 != angka2) {
+        cout << "angka berbeda" << endl;
+    }
+
+    int pilihan;
+    cout << "Menu" << endl;
+    cout << "1. penjumlahan" << endl;
+    cout << "2. pengurangan" << endl;
+    cout << "masukkan pilihan : " ;
+    cin >> pilihan;
+    
+    switch (pilihan) {
+        case 1:
+        cout << "penjumlahan: " << angka1 + angka2 << endl;
+        cout << endl;
+        break;
+        case 2:
+        cout << "pengurangan: " << angka1 - angka2 << endl;
+        cout << endl;
+        break;
+        default:
+        cout << "pilihan salah" << endl;
+    }
+
+    return 0;
+} 
+```
+Guided 4 membuat program percabangan yang bisa menentukan hasil yang nantinya akan keluar, seperti penjumlahan dan pengurangan
+
+### 5. Perulangan
+
+```C++
+#include<iostream>
+using namespace std;
+
+int main(){
+    int angka1;
+    cout << "Masukkan angka: ";
+    cin >> angka1;
+    
+    for (int i = 1; i <= angka1; i++) {
+        cout << i << " - ";
+    }
+    cout << endl;
+
+    int j = 10;
+    while (j > angka1) {
+        cout << j << " - ";
+        j--;
+    }
+
+    cout << endl;
+    int k = 10;
+    do{
+        cout << k << " - ";
+    } while (k < angka1);
+
+    return 0;
+    
+    } 
+```
+Guided 5 membuat program perulangan yang dapat mengulang angka tergantung dari input user
+
+### 6. Struct
+
+```C++
+#include<iostream>
+using namespace std;
+
+int main(){
+    const int MAX = 3;
+    struct rapot{
+        string nama;
+        float nilai;
+    };
+    rapot Mahasiswa[MAX];
+
+    for(int i = 0; i < MAX; i++){
+        cout << "masukan nama Mahasiswa : ";
+        cin >> Mahasiswa[i].nama;
+        cout << "masukan nilai Mahasiswa : ";
+        cin >> Mahasiswa[i].nilai;
+        cout << endl;
+    }
+
+    int j = 0;
+    while(j < MAX){
+        cout << "Nama Mahasiswa : " << Mahasiswa[j].nama << ", Nilai : " << Mahasiswa[j].nilai << endl;
+        j++;
+    }
+    return 0;
+} 
+```
+Guided 6 membuat program Struct untuk input nama dan nilai
+
 ## Unguided 
 
 ### 1. Soal Unguided 1
