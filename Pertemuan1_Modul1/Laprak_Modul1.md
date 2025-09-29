@@ -236,12 +236,33 @@ Guided 6 membuat program Struct untuk input nama dan nilai.
 Buatlah program yang menerima input-an dua buah bilangan bertipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
 
 ```C++
+#include <iostream>
+using namespace std;
 
+int main() {
+    float a, b;
+
+    cout << "Masukkan bilangan pertama : ";
+    cin >> a;
+    cout << "Masukkan bilangan kedua : ";
+    cin >> b;
+
+    cout << "Penjumlahan = " << a + b << endl;
+    cout << "Pengurangan = " << a - b << endl;
+    cout << "Perkalian   = " << a * b << endl;
+
+    if (b != 0)
+        cout << "Pembagian   = " << a / b << endl;
+    else
+        cout << "Tidak bisa dibagi nol" << endl;
+
+    return 0;
+} 
 ```
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan1_Modul1/Output/Soal1.png)
 
 contoh :
 ![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)

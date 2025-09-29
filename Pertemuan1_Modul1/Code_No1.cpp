@@ -19,4 +19,4 @@ int main() {
         cout << "Tidak bisa dibagi nol" << endl;
 
     return 0;
-} 
+}
