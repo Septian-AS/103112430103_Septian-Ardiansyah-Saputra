@@ -15,4 +15,4 @@ int main(){
     cout << "Hasil modulus: " << angka1 % angka2 << endl;
     return 0;
     
-}
+} 

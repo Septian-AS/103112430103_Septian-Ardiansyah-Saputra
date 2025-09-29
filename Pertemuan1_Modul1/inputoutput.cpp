@@ -8,4 +8,4 @@ int main()
     cin >> angka;
     cout << "Angka yang dimasukkan: " << angka << endl;
     return 0;
-}
+} 
