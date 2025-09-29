@@ -329,7 +329,8 @@ Program ini mengubah angka 0–100 menjadi kata dalam bahasa Indonesia. Array sa
 Buatlah program yang dapat memberikan input dan output sebagai berikut.
 Input : 3<br>
 Output :
-``` 3 2 1 * 1 2 3
+```
+    3 2 1 * 1 2 3
       2 1 * 1 2
         1 * 1
           *
