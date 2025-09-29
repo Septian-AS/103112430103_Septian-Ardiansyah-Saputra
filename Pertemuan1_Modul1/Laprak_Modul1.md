@@ -52,7 +52,8 @@ Menjalankan perintah minimal sekali sebelum cek kondisi.
 
 ### 1. Hello World
 
-```#include <iostream>
+```C++
+#include <iostream>
 #include <vector>
 #include <string>
 
