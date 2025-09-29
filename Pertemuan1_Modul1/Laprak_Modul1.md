@@ -5,14 +5,9 @@
 C++ adalah bahasa pemrograman tingkat menengah yang dikembangkan oleh Bjarne Stroustrup pada awal tahun 1980-an sebagai pengembangan dari bahasa C. C++ mendukung paradigma pemrograman prosedural maupun berorientasi objek sehingga banyak digunakan dalam pengembangan perangkat lunak yang membutuhkan efisiensi sekaligus modularitas [1]. Operasi aritmatika merupakan operasi dasar dalam pemrograman yang melibatkan penjumlahan, pengurangan, perkalian, dan pembagian. Dalam bahasa C++, operator aritmatika seperti +, -, *, dan / digunakan untuk mengolah data bertipe numerik, baik bilangan bulat maupun pecahan [2]. Fungsi terbilang (konversi angka ke tulisan) adalah algoritma yang digunakan untuk mengubah nilai numerik menjadi representasi kata [3]. Pola segitiga merupakan salah satu contoh penerapan loop bersarang (nested loop) dalam pemrograman. Pola ini dapat berbentuk segitiga rata kiri, rata kanan, atau segitiga sama sisi [4].
 
 ### A. Dasar Pemrograman C++<br/>
+...
 #### 1. Struktur Program C++
-Program C++ biasanya terdiri dari:
-
-#include <iostream> → library standar input-output
-int main() → fungsi utama yang pertama kali dijalankan
-{ ... } → blok kode perintah
-#### 2. Tipe Data
-
+#### 2. ...
 #### 3. ...
 
 ### B. ...<br/>
