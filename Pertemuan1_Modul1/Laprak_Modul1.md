@@ -70,21 +70,48 @@ int main()
     cout << endl;
 }
 ```
-penjelasan singkat guided 1
+Guided 1 membuat program Hello World
 
-### 2. ...
-
-```C++
-source code guided 2
-```
-penjelasan singkat guided 2
-
-### 3. ...
+### 2. Program Input Output
 
 ```C++
-source code guided 3
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int angka;
+    cout << "masukkan angka: ";
+    cin >> angka;
+    cout << "Angka yang dimasukkan: " << angka << endl;
+    return 0;
+}
 ```
-penjelasan singkat guided 3
+Guided 2 memasukan input dan mengeluarkan output
+
+### 3. Operator Aritmatika
+
+```C++
+#include<iostream>
+using namespace std;
+
+int main(){
+    int angka1, angka2;
+    cout << "Masukkan angka pertama: ";
+    cin >> angka1;
+    cout << "Masukkan angka kedua: ";
+    cin >> angka2;
+
+    cout << "Hasil penjumlahan: " << angka1 + angka2 << endl;
+    cout << "Hasil pengurangan: " << angka1 - angka2 << endl;
+    cout << "Hasil perkalian: " << angka1 * angka2 << endl;
+    cout << "Hasil pembagian: " << angka1 / angka2 << endl;
+    cout << "Hasil modulus: " << angka1 % angka2 << endl;
+    return 0;
+    
+} 
+```
+Guided 3 membuat program aritmatika Penjumlahan, Pengurangan, Perkalian, Pembagian, dan Modulus
 
 ## Unguided 
 
