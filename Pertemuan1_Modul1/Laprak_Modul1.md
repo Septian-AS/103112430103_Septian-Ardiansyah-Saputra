@@ -103,4 +103,4 @@ penjelasan unguided 3
 ## Referensi
 [1] Stroustrup, B. (2013). The C++ Programming Language (4th ed.). Addison-Wesley. 
 <br>[2] GeeksforGeeks. (2023). C++ Operators. Diakses dari https://www.geeksforgeeks.org/cpp-operators
-<br>...
+<br>Programiz. (2023). C++ operators. https://www.programiz.com/cpp-programming/operators
