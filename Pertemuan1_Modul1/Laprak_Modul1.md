@@ -326,6 +326,15 @@ Program ini mengubah angka 0–100 menjadi kata dalam bahasa Indonesia. Array sa
 
 ### 3. Soal Unguided 3
 
+Buatlah program yang dapat memberikan input dan output sebagai berikut.
+Input : 3<br>
+Output :
+``` 3 2 1 * 1 2 3
+      2 1 * 1 2
+        1 * 1
+          *
+```
+
 ```C++
 source code unguided 3
 ```
