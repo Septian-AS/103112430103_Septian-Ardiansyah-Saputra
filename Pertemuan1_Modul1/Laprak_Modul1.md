@@ -2,7 +2,7 @@
 <p align="center">Septian Ardiansyah Saputra - 103112430103</p>
 
 ## Dasar Teori
-C++ adalah bahasa pemrograman tingkat menengah yang dikembangkan oleh Bjarne Stroustrup pada awal tahun 1980-an sebagai pengembangan dari bahasa C. C++ mendukung paradigma pemrograman prosedural maupun berorientasi objek sehingga banyak digunakan dalam pengembangan perangkat lunak yang membutuhkan efisiensi sekaligus modularitas [1]. Operasi aritmatika merupakan operasi dasar dalam pemrograman yang melibatkan penjumlahan, pengurangan, perkalian, dan pembagian. Dalam bahasa C++, operator aritmatika seperti +, -, *, dan / digunakan untuk mengolah data bertipe numerik, baik bilangan bulat maupun pecahan. Penguasaan operasi aritmatika penting karena menjadi dasar dari hampir semua algoritma pemrograman dan pemrosesan data [2].
+C++ adalah bahasa pemrograman tingkat menengah yang dikembangkan oleh Bjarne Stroustrup pada awal tahun 1980-an sebagai pengembangan dari bahasa C. C++ mendukung paradigma pemrograman prosedural maupun berorientasi objek sehingga banyak digunakan dalam pengembangan perangkat lunak yang membutuhkan efisiensi sekaligus modularitas [1]. Operasi aritmatika merupakan operasi dasar dalam pemrograman yang melibatkan penjumlahan, pengurangan, perkalian, dan pembagian. Dalam bahasa C++, operator aritmatika seperti +, -, *, dan / digunakan untuk mengolah data bertipe numerik, baik bilangan bulat maupun pecahan [2]. Fungsi terbilang (konversi angka ke tulisan) adalah algoritma yang digunakan untuk mengubah nilai numerik menjadi representasi kata [3]. Pola segitiga merupakan salah satu contoh penerapan loop bersarang (nested loop) dalam pemrograman. Pola ini dapat berbentuk segitiga rata kiri, rata kanan, atau segitiga sama sisi [4].
 
 ### A. ...<br/>
 ...
@@ -101,6 +101,7 @@ penjelasan unguided 3
 ...
 
 ## Referensi
-[1] Stroustrup, B. (2013). The C++ Programming Language (4th ed.). Addison-Wesley. 
-<br>[2] Mirzoeva, K. A. (2023). Methodology for solving a number of problems in Python and C++ languages with the application of mathematical knowledge. TAJIIR: The American Journal of Interdisciplinary Research, 19–23. https://theamericanjournals.com/index.php/tajiir/article/view/4518
-<br>Programiz. (2023). C++ operators. https://www.programiz.com/cpp-programming/operators
+[1] Stroustrup, B. (2013). _The C++ Programming Language_ (4th ed.). Addison-Wesley. 
+<br>[2] Mirzoeva, K. A. (2023). _Methodology for solving a number of problems in Python and C++ languages with the application of mathematical knowledge. TAJIIR: The American Journal of Interdisciplinary Research,_ 19–23. https://theamericanjournals.com/index.php/tajiir/article/view/4518
+<br>[3] Asnawi, C., & Setiawan, C. B. (2019). Perancangan fungsi terbilang generik menggunakan teknik rekursi. _Jurnal Teknomatika,_ 9(1), 1–8.
+<br>[4] Cetin, I. (2015). _Students' Understanding of Loops and Nested Loops. Journal of Computers in Mathematics and Science Teaching,_ 34(1), 5–22. https://www.tandfonline.com/doi/full/10.1080/14926156.2015.1014075
