@@ -9,28 +9,30 @@ C++ adalah bahasa pemrograman tingkat menengah yang dikembangkan oleh Bjarne Str
 Program C++ biasanya terdiri dari:
 
 - `#include <iostream>` → library standar input-output<br>
-- int main() → fungsi utama yang pertama kali dijalankan<br>
-- { ... } → blok kode perintah
+- `int main()` → fungsi utama yang pertama kali dijalankan<br>
+- `{ ... }` → blok kode perintah
 #### 2. Tipe Data
 
-- int → bilangan bulat (contoh : 2, -1)
-- float / double → bilangan desimal (contoh : 3.14, 9.8)
-- char → karakter tunggal (contoh : 'S', 'a', 'S')
-- string → teks (contoh : "Septian")
-- bool → logika (contoh : true/false)
+- `int` → bilangan bulat (contoh : 2, -1)
+- `float / double` → bilangan desimal (contoh : 3.14, 9.8)
+- `char` → karakter tunggal (contoh : 'S', 'a', 'S')
+- `string` → teks (contoh : "Septian")
+- `bool` → logika (contoh : true/false)
 #### 3. Operator Aritmatika
 
-- Penjumlahan (+)
-- Pengurangan (-)
-- Perkalian (*)
-- Pembagian (/)
-- Modulus (%)
+- Penjumlahan (`+`)
+- Pengurangan (`-`)
+- Perkalian (`*`)
+- Pembagian (`/`)
+- Modulus (`%`)
 
 ### B. Input dan Output<br/>
-#### 1. Fungsi cout() (output)
-Digunakan untuk menampilkan keluaran ke layar.
-#### 2. ...
-#### 3. ...
+#### 1. Fungsi `cout()` (output)
+Digunakan untuk mencetak data.
+#### 2. Fungsi `cin()` (input)
+Digunakan untuk meminta inputan dari user.
+#### 3. Kombinasi Input-Output
+Input akan diproses kemudian langsung ditampilkan.
 
 ## Guided 
 
