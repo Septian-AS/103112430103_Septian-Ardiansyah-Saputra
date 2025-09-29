@@ -70,7 +70,7 @@ int main()
     cout << endl;
 }
 ```
-Guided 1 membuat program Hello World
+Guided 1 membuat program Hello World.
 
 ### 2. Program Input Output
 
@@ -87,7 +87,7 @@ int main()
     return 0;
 }
 ```
-Guided 2 memasukan input dan mengeluarkan output
+Guided 2 memasukan input dan mengeluarkan output.
 
 ### 3. Operator Aritmatika
 
@@ -111,7 +111,7 @@ int main(){
     
 } 
 ```
-Guided 3 membuat program aritmatika Penjumlahan, Pengurangan, Perkalian, Pembagian, dan Modulus
+Guided 3 membuat program aritmatika Penjumlahan, Pengurangan, Perkalian, Pembagian, dan Modulus.
 
 ### 4. Percabangan
 
@@ -161,7 +161,7 @@ int main(){
     return 0;
 } 
 ```
-Guided 4 membuat program percabangan yang bisa menentukan hasil yang nantinya akan keluar, seperti penjumlahan dan pengurangan
+Guided 4 membuat program percabangan yang bisa menentukan hasil yang nantinya akan keluar, seperti penjumlahan dan pengurangan.
 
 ### 5. Perulangan
 
@@ -195,7 +195,7 @@ int main(){
     
     } 
 ```
-Guided 5 membuat program perulangan yang dapat mengulang angka tergantung dari input user
+Guided 5 membuat program perulangan yang dapat mengulang angka tergantung dari input user.
 
 ### 6. Struct
 
@@ -227,7 +227,7 @@ int main(){
     return 0;
 } 
 ```
-Guided 6 membuat program Struct untuk input nama dan nilai
+Guided 6 membuat program Struct untuk input nama dan nilai.
 
 ## Unguided 
 
