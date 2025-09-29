@@ -321,9 +321,10 @@ Program ini mengubah angka 0–100 menjadi kata dalam bahasa Indonesia. Array sa
 - 12–19 ditulis sebagai “x belas”.
 - 20–99 ditulis sebagai “x puluh y” jika ada sisa, atau “x puluh” jika habis dibagi 10.
 - Angka di luar 0–100 menghasilkan pesan “input melebihi batas”.<br>
+
 `main()` meminta pengguna memasukkan angka lalu menampilkan hasil konversi kata.
 
-### 3. (isi dengan soal unguided 3)
+### 3. Soal Unguided 3
 
 ```C++
 source code unguided 3
