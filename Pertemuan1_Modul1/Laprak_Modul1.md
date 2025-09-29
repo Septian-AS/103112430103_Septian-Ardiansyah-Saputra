@@ -326,7 +326,7 @@ Program ini mengubah angka 0–100 menjadi kata dalam bahasa Indonesia. Array sa
 
 ### 3. Soal Unguided 3
 
-Buatlah program yang dapat memberikan input dan output sebagai berikut.
+Buatlah program yang dapat memberikan input dan output sebagai berikut.<br>
 Input : 3<br>
 Output :
 ```
@@ -337,20 +337,48 @@ Output :
 ```
 
 ```C++
-source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "input : ";
+    cin >> n;
+
+    cout << "output : " << endl;
+
+    for (int i = n; i >= 1; i--) {
+        for (int a = 0; a < (n - i); a++) {
+            cout << "  ";
+        }
+
+        for (int j = i; j >= 1; j--) {
+            cout << j << " ";
+        }
+
+        cout << "* ";
+
+        for (int j = 1; j <= i; j++) {
+            cout << j << " ";
+        }
+
+        cout << endl;
+    }
+
+    for (int a = 0; a < n; a++) {
+        cout << "  ";
+    }
+    cout << "*" << endl;
+
+    return 0;
+} 
 ```
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan1_Modul1/Output/Soal3.png)
 
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-penjelasan unguided 3
+Program ini membuat **pola angka berbentuk segitiga mirror dengan `*` di tengah** berdasarkan input pengguna. Setiap baris terdiri dari spasi kiri untuk menggeser angka, angka menurun di kiri `*`, tanda `*` di tengah, dan angka menaik di kanan `*`. Baris terakhir hanya menampilkan `*` di tengah, sehingga membentuk pola simetris seperti cermin.
 
 ## Kesimpulan
 ...
