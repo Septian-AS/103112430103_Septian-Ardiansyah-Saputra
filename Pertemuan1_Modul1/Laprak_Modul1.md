@@ -375,13 +375,13 @@ int main() {
 ```
 ### Output Unguided 3 :
 
-##### Output 1
+##### Output
 ![Screenshot Output Unguided 3_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan1_Modul1/Output/Soal3.png)
 
 Program ini membuat **pola angka berbentuk segitiga mirror dengan `*` di tengah** berdasarkan input pengguna. Setiap baris terdiri dari spasi kiri untuk menggeser angka, angka menurun di kiri `*`, tanda `*` di tengah, dan angka menaik di kanan `*`. Baris terakhir hanya menampilkan `*` di tengah, sehingga membentuk pola simetris seperti cermin.
 
 ## Kesimpulan
-...
+Praktikum ini untuk memahami konsep dasar C++, mulai dari input-output sederhana, operator aritmatika, hingga percabangan dan perulangan. Konsep-konsep ini saling terhubung, misalnya percabangan dapat dikombinasikan dengan perulangan untuk membuat program yang lebih dinamis. Soal-soal unguided, seperti konversi angka ke teks dan pola angka dengan nested loop, sangat membantu melatih kemampuan logika. Secara keseluruhan, materi modul ini menjadi fondasi penting sebelum mempelajari topik C++ yang lebih kompleks.
 
 ## Referensi
 [1] Stroustrup, B. (2013). _The C++ Programming Language_ (4th ed.). Addison-Wesley. 
