@@ -266,7 +266,7 @@ int main() {
 
 Program ini meminta dua bilangan dari pengguna lalu menampilkan **penjumlahan, pengurangan, perkalian**, dan **pembagian** (jika bilangan kedua tidak nol), menggunakan **operator aritmatika** dan **percabangan if-else**.
 
-### 2. (isi dengan soal unguided 2)
+### 2. Soal Unguided 2
 
 ```C++
 source code unguided 2
