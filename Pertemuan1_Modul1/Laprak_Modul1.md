@@ -60,14 +60,14 @@ using namespace std;
 
 int main()
 {
-    vector<string> msg {"Hello Telkom Jaya Jaya"};
+    vector<string> msg {"Hello World"};
 
     for (const string& word : msg)
     {
         cout << word << " ";
     }
     cout << endl;
-} 
+}
 ```
 penjelasan singkat guided 1
 
