@@ -2,9 +2,7 @@
 <p align="center">Septian Ardiansyah Saputra - 103112430103</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+C++ adalah bahasa pemrograman tingkat menengah yang dikembangkan oleh Bjarne Stroustrup pada awal tahun 1980-an sebagai pengembangan dari bahasa C. C++ mendukung paradigma pemrograman prosedural maupun berorientasi objek sehingga banyak digunakan dalam pengembangan perangkat lunak yang membutuhkan efisiensi sekaligus modularitas [1]. Operasi aritmatika merupakan operasi dasar dalam pemrograman yang melibatkan penjumlahan, pengurangan, perkalian, dan pembagian. Dalam bahasa C++, operator aritmatika seperti +, -, *, dan / digunakan untuk mengolah data bertipe numerik, baik bilangan bulat maupun pecahan. Penguasaan operasi aritmatika penting karena menjadi dasar dari hampir semua algoritma pemrograman dan pemrosesan data [2].
 
 ### A. ...<br/>
 ...
@@ -103,6 +101,6 @@ penjelasan unguided 3
 ...
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
+[1] Stroustrup, B. (2013). The C++ Programming Language (4th ed.). Addison-Wesley. 
+<br>[2] GeeksforGeeks. (2023). C++ Operators. Diakses dari https://www.geeksforgeeks.org/cpp-operators
 <br>...
