@@ -261,16 +261,10 @@ int main() {
 ```
 ### Output Unguided 1 :
 
-##### Output 1
+##### Output
 ![Screenshot Output Unguided 1_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan1_Modul1/Output/Soal1.png)
 
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-penjelasan unguided 1 
+Program ini meminta dua bilangan dari pengguna lalu menampilkan **penjumlahan, pengurangan, perkalian**, dan **pembagian** (jika bilangan kedua tidak nol), menggunakan **operator aritmatika** dan **percabangan if-else**.
 
 ### 2. (isi dengan soal unguided 2)
 
