@@ -233,10 +233,10 @@ Guided 6 membuat program Struct untuk input nama dan nilai.
 
 ### 1. Soal Unguided 1
 
-Buatlah program yang menerima input-an dua buah bilangan betipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
+Buatlah program yang menerima input-an dua buah bilangan bertipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
 
 ```C++
-source code unguided 1
+
 ```
 ### Output Unguided 1 :
 
