@@ -311,7 +311,7 @@ int main() {
 ```
 ### Output Unguided 2 :
 
-##### Output 1
+##### Output
 ![Screenshot Output Unguided 2_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan1_Modul1/Output/Soal2.png)
 
 Program ini mengubah angka 0–100 menjadi kata dalam bahasa Indonesia. Array satuan menyimpan kata untuk angka 0–9. `Fungsi keHuruf(int n)` memeriksa angka :
@@ -320,7 +320,7 @@ Program ini mengubah angka 0–100 menjadi kata dalam bahasa Indonesia. Array sa
 - 1–9 menggunakan array `satuan`.
 - 12–19 ditulis sebagai “x belas”.
 - 20–99 ditulis sebagai “x puluh y” jika ada sisa, atau “x puluh” jika habis dibagi 10.
-- Angka di luar 0–100 menghasilkan pesan “input melebihi batas”.
+- Angka di luar 0–100 menghasilkan pesan “input melebihi batas”.<br>
 `main()` meminta pengguna memasukkan angka lalu menampilkan hasil konversi kata.
 
 ### 3. (isi dengan soal unguided 3)
