@@ -241,7 +241,7 @@ matriksA =
 | 1 | 2 |
 |---|---|
 | 3 | 4 |
-
+$E=mc^2$
 
 Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian 
 matriks 3x3 tersebut. Buat prosedur untuk masing-masing operasi yang dilakukan;
