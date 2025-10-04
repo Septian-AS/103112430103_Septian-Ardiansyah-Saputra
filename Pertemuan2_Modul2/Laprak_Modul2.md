@@ -239,10 +239,7 @@ Guided 6 membuat program untuk menunjukkan cara mengubah nilai variabel mengguna
 Diketahui 2 buah matriks 3x3 seperti dibawah ini :
 
 $E=mc^2$
-$\left[ \begin{array}{cc}
-1 & 2 \\
-3 & 4
-\end{array} \right]$
+$$\left[ \begin{array}{cc} 1 & 2 \\ 3 & 4\end{array} \right]$$
 
 
 Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian 
