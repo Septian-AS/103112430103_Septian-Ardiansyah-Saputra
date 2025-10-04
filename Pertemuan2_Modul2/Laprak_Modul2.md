@@ -240,7 +240,7 @@ Diketahui 2 buah matriks 3x3 seperti dibawah ini :
 
 $E=mc^2$
 $$\left[ \begin{array}{cc} 1 & 2 \\ 3 & 4\end{array} \right]$$
-
+$$E=mc^2$$
 
 Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian 
 matriks 3x3 tersebut. Buat prosedur untuk masing-masing operasi yang dilakukan;
