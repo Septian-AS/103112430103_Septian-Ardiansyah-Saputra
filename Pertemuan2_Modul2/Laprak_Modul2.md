@@ -237,10 +237,7 @@ Guided 6 membuat program untuk menunjukkan cara mengubah nilai variabel mengguna
 
 ### 1. Soal Unguided 1
 Diketahui 2 buah matriks 3x3 seperti dibawah ini :
-matriksA =
-| 1 | 2 |
-|---|---|
-| 3 | 4 |
+
 $E=mc^2$
 
 Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian 
