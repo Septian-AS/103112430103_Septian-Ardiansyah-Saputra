@@ -236,17 +236,20 @@ Guided 6 membuat program untuk menunjukkan cara mengubah nilai variabel mengguna
 ## Unguided 
 
 ### 1. Soal Unguided 1
-Diketahui 2 buah matriks 3x3 seperti dibawah ini :
-
-$E=mc^2$
-$$\left[ \begin{array}{cc} 1 & 2 \\ 3 & 4\end{array} \right]$$
-$$E=mc^2$$
-
 Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian 
 matriks 3x3 tersebut. Buat prosedur untuk masing-masing operasi yang dilakukan;
 jumlahMatriks() untuk operasi penjumlahan, kurangMatriks() untuk pengurangan, dan 
 kaliMatriks() untuk perkalian. Buat program tersebut menggunakan menu switch-case 
 seperti berikut ini :
+
+```
+--- Menu Program Matriks ---
+1. Penjumlahan matriks
+2. Pengurangan matriks
+3. Perkalian matriks
+4. Keluar
+```
+
 ```C++
 source code unguided 1
 ```
