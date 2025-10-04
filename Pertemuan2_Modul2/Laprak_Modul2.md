@@ -239,10 +239,12 @@ Guided 6 membuat program untuk menunjukkan cara mengubah nilai variabel mengguna
 Diketahui 2 buah matriks 3x3 seperti dibawah ini :
 
 $E=mc^2$
+$
 \begin{bmatrix}
 1 & 2 \\
 3 & 4
 \end{bmatrix}
+$
 
 Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian 
 matriks 3x3 tersebut. Buat prosedur untuk masing-masing operasi yang dilakukan;
