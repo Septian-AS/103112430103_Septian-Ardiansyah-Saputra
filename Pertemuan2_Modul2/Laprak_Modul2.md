@@ -37,9 +37,9 @@ Prosedur adalah fungsi yang tidak mengembalikan nilai. Dalam C++ dikenal sebagai
 #### 1. Parameter Formal dan Parameter Aktual
 Parameter formal adalah variabel yang ada pada daftar parameter ketika mendefinisikan fungsi. Parameter aktual adalah parameter yang dipakai untuk memanggil fungsi.
 #### 2. Cara melewatkan Parameter
-- Call by Value
-- Call by Pointer
-- Call by Reference
+- Call by Value (nilai disalin, variabel asli tidak berubah)
+- Call by Pointer (mengirim alamat variabel sehingga bisa diubah nilainya)
+- Call by Reference (variabel asli langsung terhubung ke parameter fungsi)
 
 ## Guided
 
@@ -344,49 +344,71 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan2_Modul2/Output/Soal1.png)
 
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+Program ini digunakan untuk melakukan penjumlahan, pengurangan, dan perkalian matriks 3×3 lalu menampilkan hasilnya.
 
-penjelasan unguided 1 
-
-### 2. (isi dengan soal unguided 2)
+### 2. Soal Unguided 2
+Buatlah program menghitung luas dan keliling persegi panjang dengan proses perhitungan 
+dan perubahan nilainya menggunakan pointer, seperti berikut:
+1) Buatlah 3 variabel integer di fungsi main(): panjang (beri nilai 10), lebar (beri nilai 5), dan
+luas (beri nilai 0).
+2) Deklarasikan dua pointer: ptrPanjang yang menunjuk ke variabel panjang, dan ptrLebar
+yang menunjuk ke variabel lebar.
+3) Hitung luas persegi panjang tersebut dan simpan hasilnya ke dalam variabel luas. 
+Syarat: Proses perhitungan ini wajib menggunakan ptrPanjang dan ptrLebar.
+4) Cetak nilai luas ke layar.
+5) Setelah itu, ubah nilai panjang menjadi 12 dan lebar menjadi 6, juga hanya melalui
+pointer ptrPanjang dan ptrLebar.
+6) Cetak nilai panjang dan lebar yang baru untuk membuktikan bahwa
+nilainya telah berubah.
 
 ```C++
-source code unguided 2
+#include<iostream>
+using namespace std;
+
+void ubahPanjangLebar(int* Panjang, int* Lebar) {
+    *Panjang = 12;
+    *Lebar = 6;
+}
+
+int main (){
+    int panjang = 10, lebar = 5, luas = 0, keliling;
+    int* ptrPanjang = &panjang;
+    int* ptrLebar = &lebar;
+
+    cout << "--- Nilai Awal ---" << endl;
+    cout << "Panjang : " << panjang << endl;
+    cout << "Lebar : " << lebar << endl;
+
+    luas = (*ptrPanjang) * (*ptrLebar);
+    keliling = 2 * ((*ptrPanjang) + (*ptrLebar));
+
+    cout << "\n--- Hasil Perhitungan ---" << endl;
+    cout << "Luas Persegi Panjang : " << luas << endl;
+    cout << "Keliling Persegi Panjang : " << keliling << endl;
+
+    ubahPanjangLebar(ptrPanjang, ptrLebar);
+
+    luas = (*ptrPanjang) * (*ptrLebar);
+    keliling = 2 * ((*ptrPanjang) + (*ptrLebar));
+
+    cout << "\n--- Nilai Setelah Diubah Melalui Pointer ---" << endl;
+    cout << "Panjang Baru : " << *ptrPanjang << endl;
+    cout << "lebar Baru : " << *ptrLebar << endl;
+    cout << "Luas Baru : " << luas << endl;
+    cout << "Keliling Baru : " << keliling << endl;
+
+    return 0;
+}
 ```
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan2_Modul2/Output/Soal2.png)
 
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-penjelasan unguided 2
-
-### 3. (isi dengan soal unguided 3)
-
-```C++
-source code unguided 3
-```
-### Output Unguided 3 :
-
-##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-penjelasan unguided 3
+Program ini menghitung luas dan keliling persegi panjang sebelum dan sesudah nilai panjang–lebar diubah melalui pointer.
 
 ## Kesimpulan
-...
+Praktikum ini membahas penggunaan array, pointer, fungsi, prosedur, dan parameter fungsi dalam C++. Array digunakan untuk menyimpan sekumpulan data yang dapat diolah melalui perulangan, misalnya untuk operasi penjumlahan, pengurangan, maupun perkalian matriks. Pointer berfungsi menyimpan alamat memori dari variabel sehingga memungkinkan pengaksesan dan perubahan nilai secara tidak langsung. Fungsi digunakan untuk memisahkan logika program agar lebih terstruktur, sedangkan prosedur merupakan fungsi yang tidak mengembalikan nilai dan biasanya digunakan untuk menampilkan hasil atau melakukan suatu proses tertentu. Parameter fungsi bisa dikirim melalui value, pointer, maupun reference. Secara keseluruhan, praktikum ini menekankan pemahaman dasar struktur data sederhana serta konsep array, pointer, fungsi, prosedur, dan parameter fungsi untuk membuat program yang lebih fleksibel dan efisien.
 
 ## Referensi
 [1] Stroustrup, B. (2013). _The C++ Programming Language_ (4th ed.). Addison-Wesley.
