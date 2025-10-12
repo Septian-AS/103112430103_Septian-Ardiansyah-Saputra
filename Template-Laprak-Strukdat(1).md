@@ -43,7 +43,7 @@ penjelasan singkat guided 3
 
 ## Unguided 
 
-### 1. (isi dengan soal unguided 1)
+### 1. Soal Unguided 1
 
 ```C++
 source code unguided 1
@@ -53,12 +53,9 @@ source code unguided 1
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan_Modul2/Output/Soal1.png)
 
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
 penjelasan unguided 1 
 
-### 2. (isi dengan soal unguided 2)
+### 2. Soal Unguided 2
 
 ```C++
 source code unguided 2
@@ -68,12 +65,9 @@ source code unguided 2
 ##### Output 1
 ![Screenshot Output Unguided 2_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan_Modul2/Output/Soal1.png)
 
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
 penjelasan unguided 2
 
-### 3. (isi dengan soal unguided 3)
+### 3. Soal Unguided 3
 
 ```C++
 source code unguided 3
@@ -82,12 +76,6 @@ source code unguided 3
 
 ##### Output 1
 ![Screenshot Output Unguided 3_1](https://github.com/Septian-AS/103112430103_Septian-Ardiansyah-Saputra/blob/main/Pertemuan_Modul2/Output/Soal1.png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 3
 
