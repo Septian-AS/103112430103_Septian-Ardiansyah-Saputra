@@ -2,7 +2,7 @@
 <p align="center">Septian Ardiansyah Saputra - 103112430103</p>
 
 ## Dasar Teori
-Abstract Data Type (ADT) adalah konsep yang mendefinisikan tipe data beserta operasi-operasinya tanpa menampilkan detail implementasi, sehingga mendukung prinsip abstraction dan information hiding dalam pemrograman, ADT memisahkan antara antarmuka dan implementasi untuk meningkatkan modularitas[1]. ADT digunakan untuk meningkatkan keandalan dan keterbacaan perangkat lunak dengan memformalkan spesifikasi operasi dan tipe data secara terstruktur[2]. Pendekatan aljabar dalam ADT memastikan konsistensi logika antar operasi pada tipe data. Dengan demikian, ADT menjadi dasar penting dalam pengembangan struktur data dan sistem perangkat lunak yang terstruktur[3].
+Abstract Data Type (ADT) adalah konsep yang mendefinisikan tipe data beserta operasi-operasinya tanpa menampilkan detail implementasi, sehingga mendukung prinsip abstraction dan information hiding dalam pemrograman, ADT memisahkan antara antarmuka dan implementasi untuk meningkatkan modularitas [1]. ADT digunakan untuk meningkatkan keandalan dan keterbacaan perangkat lunak dengan memformalkan spesifikasi operasi dan tipe data secara terstruktur [2]. Pendekatan aljabar dalam ADT memastikan konsistensi logika antar operasi pada tipe data. Dengan demikian, ADT menjadi dasar penting dalam pengembangan struktur data dan sistem perangkat lunak yang terstruktur [3].
 
 ### A. Abstract Data Type (ADT)<br/>
 ADT adalah TYPE dan sekumpulan PRIMITIF (operasi dasar) terhadap TYPE tersebut. Selain itu, dalam sebuah ADT yang lengkap, disertakan pula definisi invarian dari TYPE dan aksioma yang berlaku. ADT merupakan definisi STATIK.
@@ -65,7 +65,7 @@ float rata2(mahasiswa m) {
     return (float)(m.nilai1 + m.nilai2) / 2;
 }
 ```
-Guided 2 membuat implementasi dari fungsi-fungsi pada ADT `mahasiswa`.
+Guided 2 membuat implementasi dari fungsi-fungsi pada ADT `Mahasiswa`.
 
 ### 3. main.cpp
 
@@ -86,7 +86,7 @@ int main() {
     return 0;
 }
 ```
-Guided 3 membuat program utama yang menggunakan ADT `mahasiswa`.
+Guided 3 membuat program utama yang menggunakan ADT `Mahasiswa`.
 
 ## Unguided 
 
@@ -162,7 +162,7 @@ Program ini untuk mengelola data mahasiswa menggunakan array dari `struct`, di m
 
 
 ### 2. Soal Unguided 2
-Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h":
+Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h" :
 ```
 Type pelajaran <
      namaMapel : string
@@ -172,7 +172,7 @@ function create_pelajaran(namapel : string, kodepel : string) → pelajaran
 procedure tampil_pelajaran(input pel : pelajara)
 ```
 Buatlah implementasi ADT pelajaran pada file "pelajaran.cpp"
-Cobalah hasil implementasi ADT pada file "main.cpp"
+<br>Cobalah hasil implementasi ADT pada file "main.cpp"
 
 - pelajaran.h
 ```C++
@@ -323,6 +323,6 @@ Program ini menggunakan array 2D dan pointer, di mana fungsi `tampilArray()` dig
 Dari materi ini, dapat disimpulkan bahwa konsep Abstract Data Type (ADT) merupakan bagian penting dalam pemrograman terstruktur dan berorientasi data. ADT digunakan untuk memisahkan antara definisi tipe data dan implementasi operasinya, sehingga program menjadi modular, mudah diperluas, dan terpelihara. Melalui penerapan konsep ini dalam berbagai contoh program, saya dapat memahami keterkaitan antara struktur data dan abstraksi dalam pengembangan perangkat lunak.
 
 ## Referensi
-[1] Cook, W. R. (2009). Object-Oriented Programming Versus Abstract Data Types. University of Texas at Austin. https://www.cs.utexas.edu/~wcook/papers/OOPvsADT/CookOOPvsADT90.pdf
-<br>[2] Berztiss, A. T. (1985). Specification and Implementation of Abstract Data Types. Science of Computer Programming, 5(1), 1–21.https://www.sciencedirect.com/science/article/pii/S006524580860131X
-<br>[3] Thomas, M. (1987). Implementing Algebraically Specified Abstract Data Types. TAPSOFT 1987. https://www.dcs.gla.ac.uk/~muffy/papers/Tapsoft_87.pdf
+[1] Cook, W. R. (2009). _Object-Oriented Programming Versus Abstract Data Types_. University of Texas at Austin. https://www.cs.utexas.edu/~wcook/papers/OOPvsADT/CookOOPvsADT90.pdf
+<br>[2] Berztiss, A. T. (1985). _Specification and Implementation of Abstract Data Types_. _Science of Computer Programming_, 5(1), 1–21.https://www.sciencedirect.com/science/article/pii/S006524580860131X
+<br>[3] Thomas, M. (1987). _Implementing Algebraically Specified Abstract Data Types_. _TAPSOFT 1987_. https://www.dcs.gla.ac.uk/~muffy/papers/Tapsoft_87.pdf
