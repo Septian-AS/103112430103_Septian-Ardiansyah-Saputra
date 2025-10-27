@@ -416,7 +416,10 @@ Guided 3 membuat program yang digunakan untuk membuat linked list sederhana dan 
 ## Unguided 
 
 ### 1. Soal Unguided 1
-
+Implementasikan program C++ yang menggunakan algoritma Binary Search pada Linked List untuk mencari elemen tertentu. Program harus mampu:
+1. Membuat linked list dengan menambahkan node di akhir
+2. Mengimplementasikan binary search pada linked list
+3. Menampilkan detail proses pencarian dan hasil akhir
 ```C++
 #include <iostream>
 using namespace std;
@@ -541,7 +544,10 @@ int main() {
 Program ini mengimplementasikan algoritma binary search pada linked list untuk mencari elemen tertentu, sekaligus menampilkan proses pencarian, posisi tengah setiap iterasi, serta hasil akhir lengkap dengan alamat dan data node yang ditemukan.
 
 ### 2. Soal Unguided 2
-
+Implementasikan program C++ yang menggunakan algoritma Linear Search pada Linked List untuk mencari elemen tertentu. Program harus mampu:
+1. Membuat linked list dengan menambahkan node di akhir
+2. Mengimplementasikan linear search pada linked list
+3. Menampilkan detail proses pencarian dan hasil akhir
 ```C++
 #include <iostream>
 using namespace std;
