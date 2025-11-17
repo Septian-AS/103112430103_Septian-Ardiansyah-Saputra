@@ -609,6 +609,20 @@ Program ini membuat stack yang dapat diisi secara terurut naik menggunakan `push
 
 ### 3. Soal Unguided 3
 Tambahkan prosedur getInputStream(in/out S : Stack). Prosedur akan terus membaca dan menerima input user dan memasukkan setiap input ke dalam stack hingga user menekan tombol enter. Contoh: gunakan cin.get() untuk mendapatkan inputan user.
+```
+int main()
+{
+    cout << "Hello world!" << endl;
+    Stack S;
+    createStack(S);
+    getInputStream(S);
+    printInfo(S);
+    cout<<"balik stack"<<endl;
+    balikStack(S);
+    printInfo(S);
+    return 0;
+}
+```
 - stack.h
 ```C++
 void getInputStream(Stack &S);
