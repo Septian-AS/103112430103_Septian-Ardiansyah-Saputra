@@ -592,8 +592,41 @@ Guided 3 mengimplementasikan _Binary Search Tree_ (BST) yang mendukung operasi _
 ## Unguided 
 
 ### 1. Soal Unguided 1
+Buatlah ADT _Binary Search Tree_ menggunakan _Linked list_ sebagai berikut di dalam file “bstree.h”:
+```
+Type infotype : integer
+Type address : pointer to Node
+Type Node: <
+    info : infotype
+    left, right : address
+>
+function alokasi(x : infotype) → address
+procedure insertNode(input/output root : address, input x : infotype)
+function findNode(x : infotype, root : address) → address
+procedure printInorder(input root : address)
+```
+Buatlah implementasi ADT _Binary Search Tree_ pada file “bstree.cpp” dan cobalah hasil implementasi ADT pada file “main.cpp”
+```
+#include <iostream>
+#include "bstree.h"
 
-- bstre.h
+using namespace std;
+int main() {
+    cout << "Hello World" << endl;
+    address root = Nil;
+    insertNode(root,1);
+    insertNode(root,2);
+    insertNode(root,6);
+    insertNode(root,4);
+    insertNode(root,5);
+    insertNode(root,3);
+    insertNode(root,6);
+    insertNode(root,7);
+    InOrder(root);
+    return 0;
+}
+```
+- bstree.h
 ```C++
 #ifndef BSTREE_H
 #define BSTREE_H
@@ -617,7 +650,7 @@ void inOrder(address root);
 
 #endif
 ```
-- bstre.cpp
+- bstree.cpp
 ```C++
 #include "bstree.h"
 
@@ -691,7 +724,33 @@ int main() {
 Kode ini mengimplementasikan _Binary Search Tree_ (BST) sederhana dengan operasi alokasi node, penyisipan data (termasuk duplikat ke _subtree_ kanan), pencarian node, dan penampilan isi tree secara _in-order_, lalu mendemokannya di `main`.
 
 ### 2. Soal Unguided 2
-
+Buatlah fungsi untuk menghitung jumlah node dengan fungsi berikut.
+➢ fungsi hitungJumlahNode(root : address) : integer
+    fungsi mengembalikan integer banyak node yang ada di dalam BST
+➢ fungsi hitungTotalInfo(root : address, start : integer) : integer
+    fungsi mengembalikan jumlah (total) info dari node-node yang ada di dalam BST
+➢ fungsi hitungKedalaman(root : address, start : integer) : integer
+    fungsi rekursif mengembalikan integer kedalaman maksimal dari binary tree
+```
+int main() {
+    cout << "Hello World" << endl;
+    address root = Nil;
+    insertNode(root,1);
+    insertNode(root,2);
+    insertNode(root,6);
+    insertNode(root,4);
+    insertNode(root,5);
+    insertNode(root,3);
+    insertNode(root,6);
+    insertNode(root,7);
+    InOrder(root);
+    cout << "\n";
+    cout << "kedalaman : " << hitungKedalaman(root,0) << endl;
+    cout << "jumlah Node : " << hitungNode(root) << endl;
+    cout << "total : " << hitungTotal(root) << endl;
+    return 0;
+}
+```
 - bstree.h
 ```C++
 int hitungJumlahNode(address root);
@@ -760,7 +819,7 @@ int main() {
 Kode ini membuat _Binary Search Tree_ (BST) dengan operasi _insert_, pencarian, _traversal in-order_, lalu menyediakan fungsi rekursif untuk menghitung jumlah node, total nilai `info` semua node, dan kedalaman (_height_) tree, yang kemudian didemonstrasikan di `main`.
 
 ### 3. Soal Unguided 3
-
+Print tree secara _pre-order_ dan _post-order_.
 - bstree.h
 ```C++
 void preOrder(address root);
