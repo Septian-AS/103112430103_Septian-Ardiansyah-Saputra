@@ -397,7 +397,7 @@ Procedure deleteListChild(input/output LChild : listChild)
 Kemudian buatlah implementasi ADT Multi Linked List tersebut pada file “MultiLL.cpp”.
 <br>Kemudian pada file “main.cpp” lakukan operasi INSERT.
 <br>Keterangan isi data setiap node :
-❖ List Parent : 
+<br>❖ List Parent : 
 1. idGolongan : G001
 namaGolongan : Aves
 2. idGolongan : G002
@@ -408,7 +408,7 @@ namaGolongan : Pisces
 namaGolongan : Amfibi
 5. idGolongan : G005
 namaGolongan : Reptil
-❖ List Child G001 : 
+<br>❖ List Child G001 : 
 1. idHewan : AV001
 namaHewan : Cendrawasih
 habitat : Hutan
@@ -419,7 +419,7 @@ namaHewan : Bebek
 habitat : Air
 ekor : True
 bobot : 2
-❖ List Child G002 : 
+<br>❖ List Child G002 : 
 1. idHewan : M001
 namaHewan : Harimau
 habitat : Hutan
@@ -435,7 +435,7 @@ namaHewan : Kucing
 habitat : Darat
 ekor : True
 bobot : 4
-❖ List Child G004 : 
+<br>❖ List Child G004 : 
 1. idHewan : AM001
 namaHewan : Kodok
 habitat : Sawah
