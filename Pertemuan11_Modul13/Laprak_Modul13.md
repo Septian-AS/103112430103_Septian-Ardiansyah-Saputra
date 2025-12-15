@@ -399,10 +399,10 @@ Kemudian buatlah implementasi ADT Multi Linked List tersebut pada file “MultiL
 <br>Keterangan isi data setiap node :
 <br>❖ List Parent : 
 1. idGolongan : G001
-namaGolongan : Aves
+<br>namaGolongan : Aves
 2. idGolongan : G002
 namaGolongan : Mamalia
-3. idGolongan : G003
+<br>3. idGolongan : G003
 namaGolongan : Pisces
 4. idGolongan : G004
 namaGolongan : Amfibi
