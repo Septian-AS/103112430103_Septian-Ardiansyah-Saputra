@@ -408,6 +408,7 @@ Kemudian buatlah implementasi ADT Multi Linked List tersebut pada file “MultiL
 <br>namaGolongan : Amfibi
 5. idGolongan : G005
 <br>namaGolongan : Reptil
+
 <br>❖ List Child G001 : 
 1. idHewan : AV001
 <br>namaHewan : Cendrawasih
