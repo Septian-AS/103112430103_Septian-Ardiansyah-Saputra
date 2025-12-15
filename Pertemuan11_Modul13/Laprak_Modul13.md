@@ -416,32 +416,35 @@ Kemudian buatlah implementasi ADT Multi Linked List tersebut pada file “MultiL
 <br>ekor : True
 <br>bobot : 0,3
 2. idHewan : AV002
-namaHewan : Bebek
-habitat : Air
-ekor : True
-bobot : 2
+<br>namaHewan : Bebek
+<br>habitat : Air
+<br>ekor : True
+<br>bobot : 2
+
 <br>❖ List Child G002 : 
 1. idHewan : M001
-namaHewan : Harimau
-habitat : Hutan
-ekor : True
-bobot : 200
+<br>namaHewan : Harimau
+<br>habitat : Hutan
+<br>ekor : True
+<br>bobot : 200
 2. idHewan : M003
-namaHewan : Gorila
-habitat : Hutan
-ekor : False
-bobot : 160
+<br>namaHewan : Gorila
+<br>habitat : Hutan
+<br>ekor : False
+<br>bobot : 160
 3. idHewan : M002
-namaHewan : Kucing
-habitat : Darat
-ekor : True
-bobot : 4
+<br>namaHewan : Kucing
+<br>habitat : Darat
+<br>ekor : True
+<br>bobot : 4
+
 <br>❖ List Child G004 : 
 1. idHewan : AM001
-namaHewan : Kodok
-habitat : Sawah
-ekor : False
-bobot : 0,2
+<br>namaHewan : Kodok
+<br>habitat : Sawah
+<br>ekor : False
+<br>bobot : 0,2
+
 <br>Setelah melakukan INSERT, lakukan operasi PRINT dengan memanggil prosedur `printMLLStructure()`.
 
 - MultiLL.h
