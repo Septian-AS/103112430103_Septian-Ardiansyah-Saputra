@@ -920,7 +920,7 @@ Kode ini mengimplementasikan _multilevel double linked list_ untuk menyimpan gol
 Lakukan operasi DELETE dengan menghapus node G004 yang ada pada list parent (list child dari node tersebut juga terhapus), kemudian lakukan lagi operasi PRINT dengan memanggil prosedur `printMLLStructure()`. Sehingga bentuk dari multi linked listnya berubah.
 <br>Untuk `MultiLL.h` dan `MultiLL.cpp` tidak ada perubahan.
 
--main.cpp
+- main.cpp
 ```C++
 #include "MultiLL.h"
 
